@@ -1,13 +1,44 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import '~antd/dist/antd.css';
+@import './styles/ObserverInfo.css';
+@import './styles/SatelliteList.css';
+@import './styles/WorldMap.css';
+
+.App-logo {
+  height: 60px;
+  padding-left: 15px;
+  margin-right: 15px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.title {
+  font-size: 25px;
+  font-weight: bold;
+  display: center;
+  height: 40px;
+}
+
+.ant-layout-header {
+  background:#0B3D91;
+  display: flex;
+  align-items: center;
+  height: 70px;
+  margin: 0px;
+  width: 100%;
+  color: #ffffff;
+  box-shadow: rgb(220, 220, 220) 0 2px 10px;
+}
+
+.ant-layout-footer {
+  position: fixed;
+  text-align: center;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background: #0B3D91;
+  color: #fff;
+}
+
+.ant-layout-content {
+  background:#fff;
+  min-height: 120px;
+  
 }
